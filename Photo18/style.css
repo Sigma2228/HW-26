@@ -385,16 +385,17 @@ address {
     cursor: pointer;
 }
 .modal {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 528px;
+    min-height: 581px;
     padding: 15px;
-    background-color: skyblue;
+    background-color: #FFFFFF;
     transform: translate(-50%, -50%);
 }
-.close-modal {
+.btn {
     width: 150px;
     height: 50px;
     font-weight: 700;
@@ -404,7 +405,7 @@ address {
     border-radius: 5px;
     cursor: pointer;
 }
-.backgrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -413,10 +414,14 @@ address {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-.backgrop .is-hidden {
+.backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
 }
+
 .no-scroll {
     overflow: hidden;
+}
+.label-text {
+    margin-bottom: 10px;
 }
