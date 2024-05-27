@@ -39,33 +39,59 @@
             <button class="btn btn-open" type="button" name="button" data-modal-open>Замовити Послугу</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="btn btn-close" data-modal-close></button>
+                    <button class="button-close" data-modal-close><a class="close">
+                            <svg class="close-svg">
+                                <use href="./Photo18/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
+                            </svg>
+                        </a></button>
                     <h1 class="modal-title">Залиште свої дані,ми вам передзвонимо</h1>
                     <div class="modal-wrap">
                         <form action="">
 
-                            <div class="input-wrap">
+                            <div class="input-wraper">
                                 <label class="label" for="">
                                     <p class="label-text">Ім'я</p>
-                                    <input class="sign-out-input" name="text" type="text">
+                                    <div class="input-wrap">
+                                        <a class="a-input">
+                                            <svg class="svg-input">
+                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-3"></use>
+                                            </svg>
+                                        </a>
+                                        <input class="sign-out-input" name="text" type="text">
+                                    </div>
                                 </label>
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wraper">
                                 <label class="label" for="">
                                     <p class="label-text">Телефон</p>
-                                    <input class="sign-out-input" type="tel">
+                                    <div class="input-wrap">
+                                        <a class="a-input">
+                                            <svg class="svg-input">
+                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-1-1"></use>
+                                            </svg>
+                                        </a>
+                                        <input class="sign-out-input" type="tel">
+                                    </div>
                                 </label>
                             </div>
-                            <div class="input-wrap">
+                            <div class="input-wraper">
                                 <label class="label" for="">
                                     <p class="label-text">Пошта</p>
-                                    <input class="sign-out-input" type="email">
+                                    <div class="input-wrap">
+                                        <a class="a-input">
+                                            <svg class="svg-input">
+                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-2-1"></use>
+                                            </svg>
+                                        </a>
+                                        <input class="sign-out-input" type="email">
+                                    </div>
+                                </label>
+                                
+                                <label class="label" for="">
+                                    <p class="label-text">Коментар</p>
+                                    <textarea class="textarea" name="" id="" cols="60" rows="10" placeholder="Введіть текст"></textarea>
                                 </label>
                             </div>
-                            <label for="">
-                                <p class="label-text">Коментар</p>
-                                <textarea name="comment" id="com" rows="10" cols="70"></textarea>
-                            </label>
                         </form>
                     </div>
                 </div>

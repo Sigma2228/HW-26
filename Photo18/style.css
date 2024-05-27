@@ -425,3 +425,65 @@ address {
 .label-text {
     margin-bottom: 10px;
 }
+.sign-out-input {
+    border: 1px solid #21212133;
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+}
+.textarea {
+   width: 448px;
+    height: 120px;
+    border: 1px solid #21212133;
+    border-radius: 4px;
+}
+.label {
+    margin: 20px 0;
+    display: block;
+}
+.label-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+}
+.input-wraper {
+    display: block;
+    text-align: start;
+}
+.modal-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.close-svg {
+    width: 30px;
+    height: 30px;
+}
+.button-close {
+  border: 0;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border: 1px solid #0000001A;
+  border-radius: 40px;
+  padding: 6px;
+
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.svg-input {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    bottom: 11px;
+    left: 12px;
+}
+form {
+    margin-left: 40px;
+}
