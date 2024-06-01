@@ -53,11 +53,9 @@
                                     <p class="label-text">Ім'я</p>
                                     <div class="input-wrap">
                                         <a class="a-input">
-                                            <svg class="svg-input">
-                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-3"></use>
-                                            </svg>
                                         </a>
-                                        <input class="sign-out-input" name="text" type="text">
+                                        <input class="sign-out-input" name="text" type="text" required minlength="3"
+                                            maxlength="10">
                                     </div>
                                 </label>
                             </div>
@@ -65,12 +63,7 @@
                                 <label class="label" for="">
                                     <p class="label-text">Телефон</p>
                                     <div class="input-wrap">
-                                        <a class="a-input">
-                                            <svg class="svg-input">
-                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-1-1"></use>
-                                            </svg>
-                                        </a>
-                                        <input class="sign-out-input" type="tel" required minlength="8">
+                                        <input class="sign-out-input" type="tel" required minlength="8" maxlength="8">
                                     </div>
                                 </label>
                             </div>
@@ -78,26 +71,24 @@
                                 <label class="label" for="">
                                     <p class="label-text">Пошта</p>
                                     <div class="input-wrap">
-                                        <a class="a-input">
-                                            <svg class="svg-input">
-                                                <use href="./Photo18/symbol-defs.svg#icon-Vector-2-1"></use>
-                                            </svg>
-                                        </a>
-                                        <input class="sign-out-input" type="email">
+                                        <input class="sign-out-input" type="email" required minlength="10"
+                                            maxlength="26">
                                     </div>
                                 </label>
-                                
+
                                 <label class="label" for="">
                                     <p class="label-text">Коментар</p>
-                                    <textarea class="textarea" name="" id="" cols="60" rows="10" placeholder="Введіть текст"></textarea>
+                                    <textarea class="textarea" name="" id="" cols="60" rows="10"
+                                        placeholder="Введіть текст" required minlength="20" maxlength="200"></textarea>
                                 </label>
                                 <div class="checkbox-wrap">
-                                <input class="checkbox" type="checkbox" name="" id="">
-                                <p class="checkbox-text">Погоджуюся з розсилкою та приймаю <a class="conditions" href="#">Умови договору</a></p>
-                            </div>
-                            <div class="button-wrap">
-                                <button class="submit" type="submit">Відправити</button>
-                            </div>
+                                    <input class="checkbox" type="checkbox" name="" id="">
+                                    <p class="checkbox-text">Погоджуюся з розсилкою та приймаю <a class="conditions"
+                                            href="#">Умови договору</a></p>
+                                </div>
+                                <div class="button-wrap">
+                                    <button class="submit" type="submit">Відправити</button>
+                                </div>
                             </div>
                         </form>
                     </div>

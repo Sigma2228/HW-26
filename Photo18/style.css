@@ -430,7 +430,7 @@ address {
 .sign-out-input {
     border: 1px solid #21212133;
     border-radius: 4px;
-    width: 448px;
+    width: 400px;
     height: 40px;
 }
 .textarea {
@@ -522,6 +522,46 @@ text-align: left;
     position: relative;
 }
 
+input[type=text] {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: 
+    url('./Vector-3.svg');
+    background-size: 18px 18px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+input[type=tel] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./Vector-1-1.svg');
+    background-size: 18px 18px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('./Vector-2-1.svg');
+    background-size: 18px 18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
 .svg-input {
     height: 18px;
     width: 18px;
@@ -531,4 +571,13 @@ text-align: left;
 }
 form {
     margin-left: 40px;
+}
+.sign-out-input:focus {
+    outline-width: 0;
+}
+.sign-out-input:not(:placeholder-shown):required:valid {
+    border-color: green;
+}
+.sign-out-input:not(:placeholder-shown):required:invalid {
+    border-color: red;
 }
