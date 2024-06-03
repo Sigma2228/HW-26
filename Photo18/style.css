@@ -329,6 +329,8 @@ address {
 .social-wrap-title {
     color: #FFFFFF;
     padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .socials {
@@ -596,4 +598,44 @@ form {
 }
 .sign-out-input:not(:placeholder-shown):required:invalid {
     border-color: red;
+}
+.publicity-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.publicity-title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.mail-input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #2F303A;
+    border: 1px #FFFFFF4D solid;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.button-subscribe {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-image: url('./icon send (1).svg');
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    text-align: left;
+    padding-left: 28px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
 }
