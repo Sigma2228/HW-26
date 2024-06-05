@@ -591,13 +591,8 @@ form {
     margin-left: 40px;
 }
 .sign-out-input:focus {
-    outline-width: 0;
-}
-.sign-out-input:not(:placeholder-shown):required:valid {
-    border-color: green;
-}
-.sign-out-input:not(:placeholder-shown):required:invalid {
-    border-color: red;
+    border: 1px solid #2196F3;
+    outline: 0;
 }
 .publicity-wrap {
     display: flex;
