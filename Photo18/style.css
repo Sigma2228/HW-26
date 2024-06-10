@@ -573,13 +573,6 @@ input[type=email] {
     outline-width: 0;
 }
 
-.textarea:not(:placeholder-shown):required:valid {
-    border-color: green;
-}
-.textarea:not(:placeholder-shown):required:invalid {
-    border-color: red;
-}
-
 .svg-input {
     height: 18px;
     width: 18px;
@@ -593,6 +586,7 @@ form {
 .sign-out-input:focus {
     border: 1px solid #2196F3;
     outline: 0;
+    
 }
 .publicity-wrap {
     display: flex;
